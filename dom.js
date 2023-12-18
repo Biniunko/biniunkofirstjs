@@ -1,5 +1,5 @@
-var button = document.getElementById("enter")[0];
-var input = document.getElementById("userinput")[0];
+var button = document.getElementById("enter");
+var input = document.getElementById("userinput");
 var ul=document.querySelector("ul")
 button.addEventListener("click", function(){
    if(input.value.length > 0){
